@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>RaymanJamal_Assignment1</display-name>
+  <servlet>
+    <servlet-name>AddDog Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.AddDog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDog Servlet</servlet-name>
+    <url-pattern>/addDog</url-pattern>
+    <url-pattern>/AddDog</url-pattern>
+    <url-pattern>/adddog</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GenerateDogs Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.GenerateDogs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GenerateDogs Servlet</servlet-name>
+    <url-pattern>/genDogs</url-pattern>
+    <url-pattern>/GenDogs</url-pattern>
+    <url-pattern>/gendogs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDogs Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.ViewAllDogs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDogs Servlet</servlet-name>
+    <url-pattern>/viewDogs</url-pattern>
+    <url-pattern>/ViewDogs</url-pattern>
+    <url-pattern>/viewdogs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDogs Page</servlet-name>
+    <jsp-file>/viewAllDogs.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDogs Page</servlet-name>
+    <url-pattern>/viewAllDogs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchDogs Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.SearchForDogs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchDogs Servlet</servlet-name>
+    <url-pattern>/searchDogs</url-pattern>
+    <url-pattern>/SearchDogs</url-pattern>
+    <url-pattern>/searchdogs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SearchForm</servlet-name>
+    <jsp-file>/searchDogForm.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchForm</servlet-name>
+    <url-pattern>/searchForm</url-pattern>
+    <url-pattern>/SearchForm</url-pattern>
+    <url-pattern>/searchform</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddDogForm</servlet-name>
+    <jsp-file>/addDogForm.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddDogForm</servlet-name>
+    <url-pattern>/addDogForm</url-pattern>
+    <url-pattern>/AddDogForm</url-pattern>
+    <url-pattern>/adddogform</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <jsp-file>/home.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListDogs Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.ViewDogGroups</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListDogs Servlet</servlet-name>
+    <url-pattern>/listDogs</url-pattern>
+    <url-pattern>/ListDogs</url-pattern>
+    <url-pattern>/listdogs</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MailOut Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.email.MailOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MailOut Servlet</servlet-name>
+    <url-pattern>/mailOut</url-pattern>
+    <url-pattern>/MailOut</url-pattern>
+    <url-pattern>/mailout</url-pattern>
+    <url-pattern>/mail</url-pattern>
+    <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDogPage Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.ViewDogPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDogPage Servlet</servlet-name>
+    <url-pattern>/ViewDog</url-pattern>
+    <url-pattern>/viewDog</url-pattern>
+    <url-pattern>/viewdog</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDog Page</servlet-name>
+	<jsp-file>/viewDog.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDog Page</servlet-name>
+    <url-pattern>/viewDogPage</url-pattern>
+  </servlet-mapping>  
+  <servlet>
+    <servlet-name>UpdateDog Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.UpdateDog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateDog Servlet</servlet-name>
+    <url-pattern>/UpdateDog</url-pattern>
+    <url-pattern>/updateDog</url-pattern>
+    <url-pattern>/updatedog</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DeleteDog Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.DeleteDog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteDog Servlet</servlet-name>
+    <url-pattern>/DeleteDog</url-pattern>
+    <url-pattern>/deleteDog</url-pattern>
+    <url-pattern>/deletedog</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SplashPage</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SplashPage</servlet-name>
+    <url-pattern>/splash</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDogGroups Page</servlet-name>
+    <jsp-file>/viewDogGroups.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDogGroups Page</servlet-name>
+    <url-pattern>/viewDogGroupsPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Build List Page Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.doghandler.BuildHandlerListPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Build List Page Servlet</servlet-name>
+    <url-pattern>/buildPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Add Handler Dogs Page</servlet-name>
+    <jsp-file>/WEB-INF/DogHandler/addHandlerDogs.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add Handler Dogs Page</servlet-name>
+    <url-pattern>/addHandlerDog</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HandlerMain Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.doghandler.HandlerMain</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HandlerMain Servlet</servlet-name>
+    <url-pattern>/handlerMain</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HandlerMain Page</servlet-name>
+    <jsp-file>/WEB-INF/DogHandler/handlerMain.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HandlerMain Page</servlet-name>
+    <url-pattern>/handlerMainPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Update Handler Servlet</servlet-name>
+    <servlet-class>ca.sheridancollege.controllers.doghandler.UpdateHandlerList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Update Handler Servlet</servlet-name>
+    <url-pattern>/updateHandlerList</url-pattern>
+  </servlet-mapping>
+  <security-role>
+    <role-name>doghandler</role-name>
+  </security-role>
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/Login/login.jsp</form-login-page>
+      <form-error-page>/Login/loginError.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Secure Page</web-resource-name>
+      <url-pattern>/buildList/*</url-pattern>
+      <url-pattern>/buildPage/*</url-pattern>
+      <url-pattern>/handlerMain/*</url-pattern>
+      <http-method>GET</http-method>
+      <http-method>POST</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>doghandler</role-name>
+    </auth-constraint>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+  </security-constraint>
+</web-app>

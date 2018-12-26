@@ -1,0 +1,81 @@
+/*
+	mist (lightblue) - 90AFC5
+	stone (darkblue) - 336B87
+	shadow (gray) - 2A3132
+	autumn (brown) - 763626
+*/
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+body{
+	background-color: #2A3132;
+	padding-top: 2%;
+}
+
+.jumbotron{
+	padding: 1em;
+	padding-top: 1.5em;
+}
+
+.card{
+	cursor: default;
+	width: 100%;
+}
+
+p{
+	color: black;
+	text-align: center;
+}
+
+label{
+	color: #90AFC5;
+	text-align: right;
+}
+
+.row{
+	margin-top: 3%;
+}
+
+h1{
+	font-family: 'Great Vibes', cursive;
+	color: #90AFC5;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 0.25em;
+	cursor: default;
+}
+
+h3, a h3{
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
+	color: white;
+	letter-spacing: 0.25em;
+	font-weight: 900;
+}
+
+img{
+	width: 100%;
+}
+
+.carousel{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: gray;
+ }
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #90AFC5;
+ }
+
+ thead{
+ 	background-color: lightgray;
+ }
+
+ .table-hover tbody tr:hover td {
+    background: aqua;
+    cursor: default;
+}
